@@ -1,4 +1,5 @@
 import './App.css';
+import './customBlocks/custom_Blocks'
 import React from 'react'
 import ReactBlockly from 'react-blockly'
 

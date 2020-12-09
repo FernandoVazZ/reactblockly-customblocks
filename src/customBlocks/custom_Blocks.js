@@ -1,4 +1,5 @@
 import Blockly from 'blockly';
+import 'blockly/python';
 
 Blockly.Blocks['new_boundary_function'] = {
     init: function () {
