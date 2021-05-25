@@ -3016,12 +3016,12 @@ bindings@^1.5.0:
   dependencies:
     file-uri-to-path "1.0.0"
 
-blockly@^3.20200625.2:
-  version "3.20200924.4"
-  resolved "https://registry.yarnpkg.com/blockly/-/blockly-3.20200924.4.tgz#bc79169e601e76451ecf29a3733af2a8a38f44fe"
-  integrity sha512-KDPVLJSguxwKXL6GVdVaYRINoxtojTsQ4lOhuWS9LkzyMhmQVZKMgFzlQum5rE5+hlhzj1BqqUQHe8JbfvL+dQ==
+"blockly@>= 3.20200024.0":
+  version "5.20210325.1"
+  resolved "https://registry.yarnpkg.com/blockly/-/blockly-5.20210325.1.tgz#c0a73174318dc61f4de116548ace2b2970dd4a58"
+  integrity sha512-qrilYPovJeDfxKDWm1YBUCPVNElh/iyC1szaHTIPZHj9C9YPpSzZOeFyyrPBbYRudzbo8kjBOWMtHnN1bLjkoQ==
   dependencies:
-    jsdom "^15.2.1"
+    jsdom "15.2.1"
 
 bluebird@^3.5.5:
   version "3.7.2"
@@ -6011,11 +6011,6 @@ immer@7.0.9:
   resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.9.tgz#28e7552c21d39dd76feccd2b800b7bc86ee4a62e"
   integrity sha512-Vs/gxoM4DqNAYR7pugIxi0Xc8XAun/uy7AQu4fLLqaTBHxjOP9pJ266Q9MWA/ly4z6rAFZbvViOtihxUZ7O28A==
 
-immutable@^3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
-  integrity sha1-wkOZUUVbs5kT2vKBN28VMOEErfM=
-
 import-cwd@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/import-cwd/-/import-cwd-2.1.0.tgz#aa6cf36e722761285cb371ec6519f53e2435b0a9"
@@ -6134,13 +6129,6 @@ internal-slot@^1.0.2:
     es-abstract "^1.17.0-next.1"
     has "^1.0.3"
     side-channel "^1.0.2"
-
-invariant@^2.2.2:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
-  integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
-  dependencies:
-    loose-envify "^1.0.0"
 
 ip-regex@^2.1.0:
   version "2.1.0"
@@ -7018,7 +7006,7 @@ jsbn@~0.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
-jsdom@^15.2.1:
+jsdom@15.2.1:
   version "15.2.1"
   resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-15.2.1.tgz#d2feb1aef7183f86be521b8c6833ff5296d07ec5"
   integrity sha512-fAl1W0/7T2G5vURSyxBzrJ1LSdQn6Tr5UX/xD4PXDx/PDgwygedfW6El/KIj3xJ7FU61TTYnc/l/B7P49Eqt6g==
@@ -7365,7 +7353,7 @@ loglevel@^1.6.8:
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.7.1.tgz#005fde2f5e6e47068f935ff28573e125ef72f197"
   integrity sha512-Hesni4s5UkWkwCGJMQGAh71PaLUmKFM60dHvq0zi/vDhhrzuk+4GgNbTXJ12YYQJn6ZKBDNIjYcuQGKudvqrIw==
 
-loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -9437,15 +9425,13 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
-react-blockly@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/react-blockly/-/react-blockly-6.0.1.tgz#d8092a4250b2c78f2637f5748e0776666c1e63c3"
-  integrity sha512-VOHkAaga+Qy4aEYEZs9f+a5Nn67tDBRbl7vlGDH3ZY+aQIJZ/BkZtgq9ogIhrljW8wUMCff30Q69fZJqDTN2+A==
+react-blockly@^7.0.0-alpha.1:
+  version "7.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/react-blockly/-/react-blockly-7.0.0-alpha.1.tgz#e5de441e6d74103eb4dd7578bdd53863b8c782b1"
+  integrity sha512-y/sADUkW+uHi/vOhyRmvA8/B71jQ7aGf7Tfu7KpSb7BwLGuNVWRr96PEbefw6R5C145ozrOLAyVr/j4X3Z3lrQ==
   dependencies:
-    blockly "^3.20200625.2"
-    immutable "^3.8.2"
+    blockly ">= 3.20200024.0"
     prop-types "^15.7.2"
-    react-immutable-proptypes "^2.1.0"
 
 react-dev-utils@^11.0.1:
   version "11.0.1"
@@ -9490,13 +9476,6 @@ react-error-overlay@^6.0.8:
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.8.tgz#474ed11d04fc6bda3af643447d85e9127ed6b5de"
   integrity sha512-HvPuUQnLp5H7TouGq3kzBeioJmXms1wHy9EGjz2OURWBp4qZO6AfGEcnxts1D/CbwPLRAgTMPCEgYhA3sEM4vw==
-
-react-immutable-proptypes@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/react-immutable-proptypes/-/react-immutable-proptypes-2.2.0.tgz#cce96d68cc3c18e89617cbf3092d08e35126af4a"
-  integrity sha512-Vf4gBsePlwdGvSZoLSBfd4HAP93HDauMY4fDjXhreg/vg6F3Fj/MXDNyTbltPC/xZKmZc+cjLu3598DdYK6sgQ==
-  dependencies:
-    invariant "^2.2.2"
 
 react-is@^16.8.1:
   version "16.13.1"
